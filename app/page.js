@@ -1,15 +1,15 @@
-import TopNavigation from "@/component/common/TopNavigation";
+import TopNavigation from "@/components/common/TopNavigation";
 import RootLayout from "./layout";
-import HorizontalMenu from "@/component/common/HarizontalMenu";
-import Slider from "@/component/common/Sliders";
-import WifiConnectionProvider from "@/component/HomePage/wifiConnectionProvider";
-import BroadbandExperience from "@/component/HomePage/BroadbandExperience";
-import Blog from "@/component/HomePage/Blog";
-import OurNetworkCoverage from "@/component/HomePage/OurNetworkCourage";
-import UserTestimonial from "@/component/HomePage/UserTestimonial";
-import SimpleBlog from "@/component/HomePage/SimpleBlog";
-import GotQuestion from "@/component/HomePage/GotQuestion";
-import Footer from "@/component/common/Footer";
+import HorizontalMenu from "@/components/common/HarizontalMenu";
+import Slider from "@/components/common/Sliders";
+import WifiConnectionProvider from "@/components/HomePage/wifiConnectionProvider";
+import BroadbandExperience from "@/components/HomePage/BroadbandExperience";
+import Blog from "@/components/HomePage/Blog";
+import OurNetworkCoverage from "@/components/HomePage/OurNetworkCourage";
+import UserTestimonial from "@/components/HomePage/UserTestimonial";
+import SimpleBlog from "@/components/HomePage/SimpleBlog";
+import GotQuestion from "@/components/HomePage/GotQuestion";
+import Footer from "@/components/common/Footer";
 
 export default function Home() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import RootLayout from '../layout'
-import TopNavigation from '@/component/common/TopNavigation'
-import HorizontalMenu from '@/component/common/HarizontalMenu'
-import Footer from '@/component/common/Footer'
-import AboutComponent from '@/component/about-us/AboutComponent'
+import TopNavigation from '@/components/common/TopNavigation'
+import HorizontalMenu from '@/components/common/HarizontalMenu'
+import Footer from '@/components/common/Footer'
+import AboutComponent from '@/components/about-us/AboutComponent'
 
 function Page() {
   return (
