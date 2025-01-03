@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const CustomButton = ({ title, bgcolor = false, link, color, bg = true, icon = true, Icon }) => {
+const CustomButton = ({ title, bgcolor = false, link, color, bg = true, icon = true, Icon}) => {
   // Hide the button completely if icon is false and the screen is small
 
 

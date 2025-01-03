@@ -28,7 +28,7 @@ function WifiConnectionProvider() {
   return (
     <div className='flex flex-col justify-center items-center w-full py-10 sm:py-5'>
       <div className="flex flex-col justify-center items-center w-full">
-        <h1 className='text-5xl font-bold'>
+        <h1 className='md:text-5xl text-xl text-center font-bold'>
           INTERNET Wi-Fi CONNECTION PROVIDER
         </h1>
         <p className='px-4 md:w-[60%] w-[90%] text-center mx-auto'>
@@ -38,7 +38,7 @@ function WifiConnectionProvider() {
       </div>
 
       <div className='mt-5 bg-orange-500 w-screen flex flex-col justify-center items-center py-10'>
-        <h1 className='font-bold text-white text-5xl'>
+        <h1 className='font-bold text-white text-2xl md:text-5xl text-center'>
           Our Power Factors
         </h1>
         <div className='flex flex-wrap flex-row justify-center items-start'>
@@ -49,7 +49,7 @@ function WifiConnectionProvider() {
                   <span className='text-3xl text-white '>
                     {d.icon}
                   </span>
-                  <h5 className='text-white text-lg'>{d.title}</h5>
+                  <h5 className='text-white text-center text-lg'>{d.title}</h5>
                 </div>
               );
             })

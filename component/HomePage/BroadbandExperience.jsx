@@ -15,21 +15,21 @@ const BroadbandExperience = () => {
         <div className='bg-white/50 w-screen'>
             <div className='md:w-[80%] bg-white mx-auto py-10'>
 
-                <h1 className='text-5xl text-center font-bold md:w-[70%] mx-auto '>
+                <h1 className='md:text-5xl text-xl text-center font-bold md:w-[70%] mx-auto '>
                     Your Binge-Worthy Broadband Experience Is Here
                 </h1>
-                <div className='flex justify-center items-center mx-auto w-fit py-10 '>
+                <div className='flex justify-center  items-center mx-auto w-fit py-10 px-5'>
                     <p>Tell us where you live
                     </p>
                     <ProvincesList />
                 </div>
 
-                <h2 className='text-center text-2xl font-bold'>
+                <h2 className='text-center text-xl md:text-2xl font-bold'>
                     Fast Fiber Fun
                 </h2>
 
-                <div className='my-5 '>
-                    <div className='flex justify-center text-5xl items-center space-x-2'>
+                <div className='md:my-5 my-2'>
+                    <div className='flex justify-center md:text-5xl text-3xl items-center space-x-2'>
                         <GiBoltCutter />   <h1 className=' text-center font-bold'>
                             Cable Cutter
                         </h1>
@@ -44,7 +44,7 @@ const BroadbandExperience = () => {
                 </div>
 
                 <div className='my-5 md:py-10 '>
-                    <div className='flex justify-center text-5xl items-center space-x-2'>
+                <div className='flex justify-center md:text-5xl text-3xl items-center space-x-2'>
                         <GiBoltCutter />   <h1 className=' text-center font-bold'>
                             The Kickstarter
                         </h1>

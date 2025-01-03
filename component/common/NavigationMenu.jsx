@@ -29,8 +29,8 @@ const NavigationMenu = () => {
           Home
         </Link>
         <Link
-          href="#about"
-          className={`text-lg font-semibold transition duration-300 ${isActive("#about") ? "text-orange-500" : "hover:text-blue-500"}`}
+          href="/about-us"
+          className={`text-lg font-semibold transition duration-300 ${isActive("/about-us") ? "text-orange-500" : "hover:text-blue-500"}`}
         >
           About Us
         </Link>

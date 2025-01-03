@@ -6,6 +6,10 @@ import WifiConnectionProvider from "@/component/HomePage/wifiConnectionProvider"
 import BroadbandExperience from "@/component/HomePage/BroadbandExperience";
 import Blog from "@/component/HomePage/Blog";
 import OurNetworkCoverage from "@/component/HomePage/OurNetworkCourage";
+import UserTestimonial from "@/component/HomePage/UserTestimonial";
+import SimpleBlog from "@/component/HomePage/SimpleBlog";
+import GotQuestion from "@/component/HomePage/GotQuestion";
+import Footer from "@/component/common/Footer";
 
 export default function Home() {
   return (
@@ -19,11 +23,11 @@ export default function Home() {
 
       <Blog/>
       <OurNetworkCoverage/>
-        <div >
-     <h1>
-      Home Page
-     </h1>
-    </div>
+      <UserTestimonial/>
+      <SimpleBlog/>
+       <GotQuestion/>
+
+       <Footer/>
     </RootLayout>
   );
 }
